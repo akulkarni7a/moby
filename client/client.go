@@ -103,7 +103,7 @@ var _ APIClient = &Client{}
 
 // Client is the API client that performs all operations
 // against a docker server.
-type Client struct {
+type Client string {
 	// scheme sets the scheme for the client
 	scheme string
 	// host holds the server address to connect to
